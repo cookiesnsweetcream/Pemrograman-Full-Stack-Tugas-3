@@ -1,0 +1,44 @@
+body {
+  background: rgb(255,246,227);
+  background: linear-gradient(90deg, rgba(255,246,227,1) 0%, rgba(205,193,255,1) 50%);
+}
+
+.task-card {
+  max-width: 800px;
+  color: #FFF6E3;
+  border-color: #FFF6E3;
+}
+
+.title {
+  color: black;
+}
+
+.modal-header {
+  background-color: #CDC1FF;
+}
+
+.modal-body, .modal-footer {
+  background-color: #FFF6E3;
+}
+
+.addTask .btn-primary {
+  background-color: #FFF6E3;
+  border-color: #FFF6E3;
+  color: #021526;
+}
+
+.submit-button {
+  background: #CDC1FF;
+  border-color: #CDC1FF;
+  color: #021526;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
